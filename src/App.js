@@ -118,17 +118,13 @@ class App extends Component {
   render() {
     const { count, id } = this.state
 
-    let countDisplay
-    let idDisplay
-    if (count) {
-      countDisplay = (
-        <div className="count-display">
-          <p>{count}</p>
-        </div>
-      )
-    }
+    const countDisplay = (
+      <div className="count-display">
+        <p>{count || 0}</p>
+      </div>
+    )
 
-    idDisplay = (
+    const idDisplay = (
       <div className="id-display">
         Like ID: {id || 'None'}
       </div>
