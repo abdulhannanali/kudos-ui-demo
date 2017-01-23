@@ -2,9 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
+.React-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+}
+
+.Micro-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  margin: 10px;
 }
 
 .App-header {
@@ -23,8 +29,8 @@
 }
 
 .App-description {
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 150px;
+  margin-right: 150px;
   word-wrap: break-word;
 }
 

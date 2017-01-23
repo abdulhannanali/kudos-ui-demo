@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import reactLogo from './logo.svg';
+import microLogo from './micro.svg'
 import LikeButton from './LikeButton'
 import './App.css';
 import { get } from 'axios'
@@ -137,7 +138,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={reactLogo} alt="React Logo" className="React-logo"/>
+          <img src={microLogo} alt="Micro Logo" className="Micro-logo" />
           <h2>Micro Kudos Demo</h2>
         </div>
         <div className='App-body'>
