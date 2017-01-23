@@ -6,7 +6,7 @@ import './App.css';
 import { get } from 'axios'
 import store from 'store'
 
-const ENDPOINT = 'http://localhost:3000'
+const ENDPOINT = 'https://micro-kudos-cpwzedpiyq.now.sh/'
 const LOCAL_STORAGE_KEY = 'likeState'
 const urlPath = window.location.href || 'https://hannanali.tech'
 
