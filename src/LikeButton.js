@@ -8,6 +8,8 @@ export default class LikeButton extends Component {
   }
 
   onClick (event) {
+    event.preventDefault()
+
     if (this.props.onClick) {
       this.props.onClick(event)
     }
